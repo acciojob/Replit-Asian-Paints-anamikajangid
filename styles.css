@@ -1,1 +1,14 @@
-/*  your css code here. If applicable */
+.grid-container{
+	display:grid;
+	grid-template-columns:auto auto auto;
+	padding:10px;
+	margin:20px;
+}
+.grid-item{
+	padding:10px;
+	border:1px solid rgba(0, 0, 0, 0.698);
+	text-align:center;
+	font-size:30px;
+	background-color:transparent;
+	
+}
